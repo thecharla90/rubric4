@@ -19,3 +19,14 @@ function changeColor(){
   var color = document.getElementById("color").value;
   document.body.style.background = color;
 }
+
+
+
+/* exported mouseOver */
+function mouseOver() {
+  document.getElementById("demo").style.color = "red";
+}
+/* exported mouseOut */
+function mouseOut() {
+  document.getElementById("demo").style.color = "black";
+}

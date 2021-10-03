@@ -5,18 +5,20 @@
 <title>rubric4</title>
 	<script src="script.js" defer></script>
 </head>
+	
 
 <body onload="myFunction()">
-<h1 id="welcome"><center>Welcome</center></h1><br><br><br>
+	
+<h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">Welcome (Mouse over me) </h1><br><br><br>
 	
 	<button onclick="displayDate()">Press me!</button>
 		<p id="onclick"></p><br><br>
 
 	
 	<p>
-  Enter your fav colour
-  <input type="text" id="color" onkeypress="changeColorWhenEnter(event)">
-  <button onclick="changeColor();"> Click me or press enter on your keyboard </button>
+  Enter your favorite colour
+  <input type="text" id="color" onkeypress="changeColorWhenEnter(event)"><br>
+  <button onclick="changeColor();">Press enter on your keyboard </button>
 	</p>
 	
 	
